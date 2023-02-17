@@ -1,0 +1,87 @@
+.body {
+    margin: 0px;
+}
+
+/* Header Section Styles */
+.header {
+    background-color: rgba(255, 144, 14, 0.1);
+    padding: 0px 10px;
+    margin: 0px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-bar {
+    display: flex;
+}
+
+.landing-page {
+    text-decoration: none;
+    color: #424242;
+    padding-right: 30px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.title-info {
+    text-align: center;
+    color: #727272;
+}
+
+.btn-primary {
+    background-color: #FF900E;
+    color: white;
+    border: 0px;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.banner {
+    padding: 50px 20px;
+    width: 900px;
+    height: 400px;
+}
+
+/* Main Section */
+
+/* Team work */
+.group-work {
+    display: flex;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+.teams {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px
+}
+
+.grp-img {
+    width: 200px;
+    height: 150px;
+}
+
+.description {
+    padding-left: 73px;
+}
+
+.des-style1 {
+    color: #727272;
+}
+
+.des-style2 {
+    color: #FF900E;
+    ;
+}
+
+.description-title {
+    color: #727272;
+}
